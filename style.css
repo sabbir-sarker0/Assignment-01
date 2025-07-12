@@ -61,3 +61,150 @@ header {
     font-size: 34px;
     font-family: "Inter", sans-serif;
 }
+/* Banner Section */
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px;
+}
+
+.hero-content {
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.hero-content h1 {
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 30px;
+}
+
+.hero-content .btn-focus {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    height: 45px;
+    width: 200px;
+}
+
+.hero-content .btn-focus:hover {
+    background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Action Section */
+
+.cta-section {
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    margin: 50px auto 0 auto;
+	justify-content: space-around;
+}
+
+.cta-text {
+    width: 515px;
+    font-family: "Raleway", sans-serif;
+}
+
+.cta-text p {
+    font-size: 25px;
+}
+
+.cta-heading {
+    font-size: 43px;
+}
+
+.cta-description {
+    margin-top: 20px;
+    color: #8d8e98;
+	font-size: 24px;
+}
+
+.btn-cta {
+	padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.btn-cta:hover {
+    background-color: #ecd92b;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    color: white;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.cta-image img {
+    border-radius: 35px;
+}
+
+   /* Productive Users Section */
+
+.stats-wrapper {
+    max-width: 1140px;
+    width: 100%;
+    height: 306px;
+    margin: 50px auto;
+    padding: 70px 20px;
+    background-color: #e8eafe;
+    border-radius: 16px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+.stats-wrapper h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 40px;
+}
+
+.stats-grid-layout {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.stats-box {
+    min-width: 100px;
+}
+
+.stats-box h3 {
+    font-size: 52px;
+    color: #4f46e5;
+    margin-bottom: 5px;
+}
+
+.stats-box p {
+    font-size: 14px;
+    color: #666;
+}
