@@ -208,3 +208,81 @@ header {
     font-size: 14px;
     color: #666;
 }
+
+/* Users’ Feedback Section */
+
+.feedback-section {
+    max-width: 1140px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 70px 20px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.feedback-heading {
+    font-size: 42px;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+}
+
+.review-cards {
+    display: flex;
+    gap: 24px;
+}
+
+.feedback-card {
+    width: 500px;
+    min-height: 220px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    padding: 18px;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+}
+
+.card-stars {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-body h2 {
+    padding-bottom: 12px;
+    font-size: 25px;
+}
+
+.card-body p {
+    color: #1E1E1E;
+    font-size: 15px;
+    text-align: left;
+}
+
+.card-bottom {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-meta h4 {
+    color: #B3B3B3;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.card-meta p {
+    color: #B3B3B3;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.card-bottom img {
+    border-radius: 50%;
+}
