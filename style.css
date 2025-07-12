@@ -386,3 +386,45 @@ header {
     transition: 2s;
     cursor: pointer;
 }
+
+/* Footer Section */
+
+.layout-container {
+    margin: 50px 0 0 0;
+}
+
+.footer-wrap {
+    text-align: center;
+}
+
+.footer-links ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.footer-wrap h1 {
+    font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: inter;
+}
+
+.footer-wrap p {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-family: inter;
+    color: #8987A1;
+    text-align: center;
+}
